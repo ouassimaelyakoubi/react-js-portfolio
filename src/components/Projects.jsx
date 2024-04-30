@@ -1,6 +1,6 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import project1 from "../assets/projects/realestate.jpg";
+import project1 from "../assets/projects/pfeAPP.png";
 import project2 from "../assets/projects/workImg.jpeg";
 import project_person from "../assets/projects/project_person.png";
 import "swiper/css";
@@ -11,8 +11,8 @@ const Project = () => {
   const projects = [
     {
       img: project1,
-      name: "RealEstate App",
-      github_link: "https://github.com/Sridhar-C-25",
+      name: "PFE managment App",
+      github_link: "https://github.com/ouassimaELYAKOUBI/springboot-angular-pfe-app",
       live_link: "https://myreactflix.netlify.app",
     },
     {
