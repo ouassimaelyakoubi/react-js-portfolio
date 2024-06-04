@@ -1,7 +1,7 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import project1 from "../assets/projects/pfeAPP.png";
-import project2 from "../assets/projects/workImg.jpeg";
+import project2 from "../assets/projects/workImg.png";
 import project_person from "../assets/projects/project_person.png";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -33,9 +33,9 @@ const Project = () => {
         <p className="text-gray-400 mt-3 text-lg">My awesome works</p>
       </div>
       <br />
-      <div className="flex max-w-6xl md:gap-x-12 gap-6 px-5 mx-auto items-center relative">
-      <div className="lg:block hidden imageProject relative">
-          <img src={project_person} alt="" className="bg-[#E08FBA] rounded-xl -rotate-6"/>
+      <div className="flex  max-w-6xl  gap-9 gap-y-9 px-5 mx-auto items-center relative">
+      <div className="imageProject lg:w-96 lg:block hidden h-full relative sm:w-10/12 w-11/12 max-w-sm">
+          <img src={project_person} alt="" className="bg-[#E08FBA] rounded-xl -rotate-12"/>
         </div>
         <div className="lg:w-2/3 w-full">
           <Swiper
@@ -58,7 +58,7 @@ const Project = () => {
             {projects.map((project_info, i) => (
               <SwiperSlide key={i}>
                 <div className="h-fit w-full p-4 bg-slate-700 rounded-xl">
-                  <img src={project_info.img} alt="" className="rounded-lg" />
+                  <img src={project_info.img} alt="" className="rounded-lg " />
                   <h3 className="text-xl my-4">{project_info.name}</h3>
                   <div className="flex gap-3">
                     <a
@@ -81,7 +81,7 @@ const Project = () => {
             ))}
           </Swiper>
         </div>
-        
+       
       </div>
     </section>
   );

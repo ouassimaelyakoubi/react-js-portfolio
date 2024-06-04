@@ -18,7 +18,7 @@ const About = () => {
         <div className='flex md:flex-row flex-col-reverse items-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto'>
         <div className="p-2 ">
           <div className='text-gray-400 my-3'>
-          <p className="text-justify leading-7 w-11/12 max-auto">
+          <p className="text-justify leading-7 w-11/12 mx-auto">
             Recent computer engineering graduate with a passion for
   developing scalable web applications and working across the full
   stack. Eager to apply and expand my knowledge in a
@@ -39,7 +39,7 @@ const About = () => {
           <br/>
           <br/>
           <a href={cv} download={cv} >
-          <button className='btn-primary'>Download CV</button>
+          <button className='btn-primary transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#e084b3] duration-300'>Download CV</button>
           </a>
           </div>
           </div>

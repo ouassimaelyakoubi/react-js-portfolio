@@ -24,7 +24,7 @@ const Navbar = () => {
       <div className='flex items-center justify-between'>
         <div className='mx-7'>
           <h4 className='text-4xl uppercase font-bold'>
-            W<span className='text-[#E08FBA]'>AE</span>L
+            O<span className='text-[#E08FBA]'>AE</span>L
           </h4>
         </div>
         <div className={`${sticky? 'md:bg-white/0 bg-white' : 'bg-white'} text-gray-900 md:block hidden px-7 py-2 font-medium rounded-bl-full`}>
@@ -46,7 +46,7 @@ const Navbar = () => {
         <div className={`md:hidden text-gray-900 absolute w-2/3 h-screen px-7 py-2 font-medium bg-white top-0 duration-300 ${open? 'right-0':'right-[-100%]'}`}>
           <ul className="flex flex-col justify-center h-full gap-10 py-2 text-lg ">
               {menuLinks?.map((menu,i)=>(
-                <li key={i} className="px-6 hover:text-[#E08FBA]">
+                <li key={i} onClick={() => setOpen(false)} className="px-6 hover:text-[#E08FBA]">
                   <a href={menu.link}>{menu.name}</a>
                 </li>
               ))}
