@@ -5,7 +5,7 @@ const Skills = () => {
   const skills=[
     {
       logo:'logo-html5',
-      level:'Expert', 
+      level:'Advanced', 
       count:89,
   },
   {
@@ -15,7 +15,12 @@ const Skills = () => {
   },
   {
     logo:'logo-javascript',
-    level:'intermediate', 
+    level:'IntermedIate', 
+    count:60,
+  },
+  {
+    logo:'logo-angular',
+    level:'Intermediate', 
     count:60,
   },
   {
@@ -25,19 +30,30 @@ const Skills = () => {
   },
   {
     logo:'logo-nodejs',
-    level:'intermediate', 
+    level:'Intermediate', 
     count:30,
   },
   {
-    logo:"git-branch-outline",
-    level:'advanced', 
-    count:80,
+    logo:'cafe-outline',
+    level:'Intermediate', 
+    count:70,
   },
   {
     logo:'leaf-outline',
-    level:'intermediate', 
+    level:'Intermediate', 
     count:50,
-  }
+  },
+  {
+    logo:"git-branch-outline",
+    level:'Advanced', 
+    count:80,
+  },
+  {
+    logo:"logo-github",
+    level:'Advanced', 
+    count:80,
+  },
+ 
 ]
 
   return (

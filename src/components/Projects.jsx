@@ -1,7 +1,8 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import project1 from "../assets/projects/pfeAPP.png";
-import project2 from "../assets/projects/workImg.png";
+import project1 from "../assets/projects/pfeApp.png";
+import project2 from "../assets/projects/startUps.png";
+import project3 from "../assets/projects/creon.png";
 import project_person from "../assets/projects/project_person.png";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -13,14 +14,20 @@ const Project = () => {
       img: project1,
       name: "PFE managment App",
       github_link: "https://github.com/ouassimaELYAKOUBI/springboot-angular-pfe-app",
-      live_link: "https://myreactflix.netlify.app",
+      live_link: "https://springboot-angular-pfe-app.vercel.app",
     },
     {
       img: project2,
-      name: "Work App",
-      github_link: "https://github.com/Sridhar-C-25/jobsearchapp",
-      live_link: "https://myjobsearch.netlify.app",
+      name: "Start-ups App",
+      github_link: "",
+      live_link: "https://digital-front-iota.vercel.app",
     },
+    {
+      img: project3,
+      name: "frontend Assignment App",
+      github_link: "https://github.com/ouassimaELYAKOUBI/front-end-assignment-app",
+      live_link: "https://front-end-assignment-app.vercel.app",
+    }
     
     
   ];
