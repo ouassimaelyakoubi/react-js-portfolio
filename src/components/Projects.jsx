@@ -1,6 +1,6 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import project1 from "../assets/projects/pfeApp.png";
+import project1 from "../assets/projects/pfeAPP.png";
 import project2 from "../assets/projects/startUps.png";
 import project3 from "../assets/projects/creon.png";
 import project_person from "../assets/projects/project_person.png";
