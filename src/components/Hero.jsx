@@ -20,7 +20,7 @@ const Hero = () => {
               </span>
               My Name is <span>Ouassima EL YAKOUBI</span>
             </h1>
-            <h4 className='md:text-2xl text-lg md:leading-normal leading-5 mt-4 font-bold text-gray-600'>Full Stack Developer </h4>
+            <h4 className='md:text-2xl text-lg md:leading-normal leading-5 mt-4 font-bold text-gray-600'>Frontend Developer </h4>
             <button className="btn-primary mt-8 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#e084b3] duration-300" onClick={() => {window.location.href = `mailto:elyakoubi.ouassima@gmail.com`}}>Contact Me</button>
             <div className='mt-8 text-3xl flex items-center md:justify-start justify-center gap-5'>
               {

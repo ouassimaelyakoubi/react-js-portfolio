@@ -16,7 +16,7 @@ const Skills = () => {
   {
     logo:'logo-javascript',
     level:'IntermedIate', 
-    count:60,
+    count:70,
   },
   {
     logo:'logo-angular',
@@ -25,8 +25,8 @@ const Skills = () => {
   },
   {
     logo:'logo-react',
-    level:'Advanced', 
-    count:90,
+    level:'Intermediate', 
+    count:70,
   },
   {
     logo:'logo-nodejs',
