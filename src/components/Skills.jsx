@@ -44,12 +44,12 @@ const Skills = () => {
     count:50,
   },
   {
-    logo:"git-branch-outline",
+    logo:'git-branch-outline',
     level:'Advanced', 
     count:80,
   },
   {
-    logo:"logo-github",
+    logo:'logo-github',
     level:'Advanced', 
     count:80,
   },
