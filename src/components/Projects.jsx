@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import project1 from "../assets/projects/pfeAPP.png";
 import project2 from "../assets/projects/startUps.png";
 import project3 from "../assets/projects/creon.png";
+import project4 from "../assets/projects/oldagramApp.png"
 import project_person from "../assets/projects/project_person.png";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -27,6 +28,12 @@ const Project = () => {
       name: "frontend Assignment App",
       github_link: "https://github.com/ouassimaELYAKOUBI/front-end-assignment-app",
       live_link: "https://front-end-assignment-app.vercel.app",
+    },
+    {
+      img: project4,
+      name: "Oldagram App",
+      github_link: "https://github.com/ouassimaELYAKOUBI/oldagram-app-scrimba",
+      live_link: "https://oldagram-mini-app-scrimba.netlify.app/",
     }
     
     
