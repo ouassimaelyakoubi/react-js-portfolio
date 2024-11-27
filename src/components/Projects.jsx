@@ -4,7 +4,7 @@ import project1 from "../assets/projects/pfeAPP.png";
 import project2 from "../assets/projects/startUps.png";
 import project3 from "../assets/projects/creon.png";
 import project4 from "../assets/projects/oldagramApp.png"
-import project5 from "../assets/projects/ppe.png";
+//import project5 from "../assets/projects/ppe.png";
 import project_person from "../assets/projects/project_person.png";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -36,12 +36,12 @@ const Project = () => {
       github_link: "https://github.com/ouassimaELYAKOUBI/oldagram-app-scrimba",
       live_link: "https://oldagram-mini-app-scrimba.netlify.app/",
     },
-    {
+   /*  {
       img: project5,
       name: "Im'ense Assignment App",
       github_link: "https://github.com/ouassimaelyakoubi/react-js-assignment",
       live_link: "https://besix-react-js-assignment.vercel.app/",
-    }
+    } */
     
     
   ];
