@@ -19,7 +19,7 @@ const Project = () => {
     },
     {
       img: project2,
-      name: "Tour-Trek App - AI Travel ChatBot",
+      name: "Tour-Trek - AI Travel ChatBot",
       github_link: "https://github.com/ridabensalem/tour-trek",
       live_link: "https://tour-trek.vercel.app/",
     },
