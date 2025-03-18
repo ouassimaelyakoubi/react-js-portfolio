@@ -1,6 +1,6 @@
 import React from 'react';
 import imageAbout from '../assets/imageInfo.png';
-import cv from '../assets/CV_Ouassima ELYAKOUBI_EN.pdf';
+import cv from '../assets/Ouassima El Yakoubi.pdf';
 const About = () => {
   const info=[
     {text:"Years experience",count:"01"},
