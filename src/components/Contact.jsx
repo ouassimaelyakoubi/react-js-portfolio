@@ -138,7 +138,7 @@ const Contact = () => {
             ></textarea>
             <button
               type="submit"
-              className="btn-primary w-fit bg-[#E08FBA] px-6 py-2 rounded-md text-white"
+              className="btn-primary w-fit bg-[#E08FBA] text-white"
             >
               Send Message
             </button>

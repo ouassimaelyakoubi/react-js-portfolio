@@ -18,7 +18,7 @@ const About = () => {
         <div className='flex md:flex-row flex-col-reverse items-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto'>
         <div className="p-2 ">
           <div className='text-gray-400 my-3'>
-          <p className="text-justify leading-7 w-11/12 mx-auto">
+          <p className="text-justify leading-7 w-11/12 ml-2">
           As a Frontend Developer I take great pride in building pixel-perfect web applications. Drawing has always been a personal passion of mine, and I find the process of translating Figma designs into functional, beautifully crafted apps to be incredibly rewarding. The attention to detail and the joy of seeing a design come to life in code excites me every time. I’m committed to creating intuitive, user-centric experiences that not only look great but also perform seamlessly across devices. Eager to contribute to a collaborative team, I continuously seek opportunities to learn and grow as a frontend developer.
           </p>
           <div className='flex mt-10 items-center gap-7'>
