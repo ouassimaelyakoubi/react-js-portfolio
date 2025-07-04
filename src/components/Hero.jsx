@@ -30,10 +30,10 @@ const Hero = () => {
                         let url;
                         switch (icon) {
                           case 'logo-linkedin':
-                            url = `https://www.linkedin.com/in/ouassima-e-9a3342200`;
+                            url = `https://www.linkedin.com/in/ouassima-elyakoubi/`;
                             break;
                           case 'logo-github':
-                            url = 'https://github.com/ouassimaELYAKOUBI'; // Replace with your username
+                            url = 'https://github.com/ouassimaelyakoubi'; // Replace with your username
                             break;
                           case 'logo-facebook':
                             url = 'https://www.facebook.com/quoi.deneuf.7393';

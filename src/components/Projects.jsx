@@ -46,13 +46,13 @@ const Project = () => {
         <p className="text-gray-400 mt-3 text-lg">My awesome works</p>
       </div>
       <br />
-      <div className="flex  max-w-6xl  gap-9 gap-y-9 px-5 mx-auto items-center relative">
-      <div className="imageProject lg:w-96 lg:block hidden h-full relative sm:w-10/12 w-11/12 max-w-sm">
+      <div className="flex  max-w-6xl  gap-14 gap-y-9 px-5 mx-auto items-center relative">
+        <div className="imageProject lg:w-96 lg:block hidden h-full relative sm:w-10/12 w-11/12 max-w-sm">
           <img src={project_person} alt="" className="bg-[#E08FBA] rounded-xl -rotate-12"/>
         </div>
         <div className="lg:w-2/3 w-full">
           <Swiper
-            slidesPerview={1.2}
+            slidesPerView={1.2}
             spaceBetween={20}
             breakpoints={{
               768: {
@@ -73,7 +73,7 @@ const Project = () => {
                 <div className="h-fit w-full p-4 bg-slate-700 rounded-xl">
                   <img src={project_info.img} alt="" className="rounded-lg " />
                   <h3 className="text-xl my-4">{project_info.name}</h3>
-                  <div className="flex gap-3">
+                  <div className="flex gap-3 mb-4">
                     <a
                       href={project_info.github_link}
                       target="_blank"
@@ -84,7 +84,7 @@ const Project = () => {
                     <a
                       href={project_info.live_link}
                       target="_blank"
-                      className="text-[#E08FBA] bg-gray-800 px-2 py-1 inline-block"
+                      className="text-[#E08FBA] bg-gray-800 px-2 py-1 inline-block "
                     >
                       Live Demo
                     </a>

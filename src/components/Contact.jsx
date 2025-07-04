@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
   const contact_info = [
     { logo: "mail", text: "elyakoubi.ouassima@gmail.com" },
     { logo: "logo-whatsapp", text: "+212 642 013 779" },
-    { logo: "location", text: "demo location" },
+    { logo: "location", text: "Tetouan, Morocco" },
   ];
 
   // State to manage form inputs and status messages
